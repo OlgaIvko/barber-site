@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Антон Барбер | Премиум стрижки</title>
+    <meta name="description" content="Барбер Антон. Мужская стрижка и барберские услуги в Москве. Запись онлайн.">
+    <link rel="preload" as="image" href="assets/images/placeholder.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Стеклянный хедер -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">ANTON BARBER</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Главная</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#masters">Мастер</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <button class="book-nav-btn" id="bookNavBtn">Запись онлайн</button>
+        </div>
+    </nav>
+
+    <!-- Hero секция с видеофоном -->
+    <section class="hero" id="hero">
+        <div class="video-container">
+            <img class="video-placeholder" src="assets/images/placeholder.jpg" alt="barber background preload">
+            <video id="bgVideo" class="video-bg" autoplay loop muted playsinline poster="assets/images/placeholder.jpg">
+                <source src="assets/video/barber-bg.mp4" type="video/mp4">
+                Ваш браузер не поддерживает видео.
+            </video>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">ANTON BARBER</h1>
+            <p class="hero-subtitle">Стиль. Качество. Индивидуальность.</p>
+            <button class="btn btn-primary book-main-btn">Записаться онлайн</button>
+        </div>
+    </section>
+<!-- Обо мне + скидка -->
+<!-- Обо мне + скидка с вау-эффектом -->
+<section class="about section" id="about">
+    <div class="container">
+        <div class="about-vau">
+            <div class="about-glow"></div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Антон Барбер</h2>
+                    <p class="about-lead">Барбер – это искусство. Моя работа — делать тебя увереннее.</p>
+                    <div class="about-details">
+                        <p>Каждый день я встречаю разных людей, с разными историями. Моя задача — не просто стрижка, а идеальный образ, который подчеркнёт твою индивидуальность.</p>
+                        <p>Я люблю свою работу за то, что она даёт мне возможность помогать людям становиться увереннее. Когда клиент выходит довольным — это лучшая награда.</p>
+                        <p>Если ты ищешь своего барбера — я буду рад помочь.</p>
+                    </div>
+                </div>
+                <div class="about-offer-vau">
+                    <div class="offer-card">
+                        <div class="offer-stars">✦ ✦ ✦</div>
+                        <div class="offer-badge">ПЕРВЫЙ ВИЗИТ</div>
+                        <div class="offer-number">−15%</div>
+                        <div class="offer-text">на любую услугу</div>
+                        <div class="offer-expires">акция действует при первом посещении</div>
+                        <button class="btn btn-primary book-offer-btn">Записаться →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Мастер и портфолио (без текста Антона) -->
+    <section class="masters section" id="masters">
+        <div class="container">
+            <h2 class="section-title">Мастер</h2>
+            
+            <div id="mastersGrid"></div>
+            
+        </div>
+    </section>
+
+    
+
+    <!-- Услуги и цены -->
+    <section class="services section" id="services">
+        <div class="container">
+            <h2 class="section-title">Услуги и цены</h2>
+            <div class="services-grid" id="servicesGrid"></div>
+        </div>
+    </section>
+
+    <!-- Контакты и карта -->
+    <section class="contacts section" id="contacts">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contacts-grid">
+                <div class="contacts-info">
+                    <p><strong>Адрес:</strong> г. Москва, ул. Тверская, 15</p>
+                    <p><strong>Телефон:</strong> <a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+                    <p><strong>Режим работы:</strong> Ежедневно 10:00 – 22:00</p>
+                    <p><strong>Instagram:</strong> @anton_barber</p>
+                </div>
+                <div class="map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1234567890&amp;source=constructor" width="100%" height="300" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Антон Барбер. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
