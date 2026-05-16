@@ -335,6 +335,9 @@ body {
     transition: transform 0.3s, box-shadow 0.3s;
     border: 1px solid rgba(255, 255, 255, 0.7);
     box-shadow: 0 15px 30px -12px rgba(0, 0, 0, 0.2);
+    display: flex;               /* ДОБАВЛЕНО */
+    flex-direction: column;      /* ДОБАВЛЕНО */
+    height: 100%; 
 }
 
 .service-card:hover {
@@ -346,7 +349,8 @@ body {
 
 .service-img {
     width: 100%;
-    /* height: 220px; */
+    height: 500px;
+   
     object-fit: cover; /* не обрезает, а вписывает без искажений */
     display: block;
     transition: transform 0.4s;
@@ -357,11 +361,16 @@ body {
 }
 
 .service-info {
+      margin-top: auto;
     position: relative;
     padding: 20px 20px 24px;
     background: rgba(255, 255, 250, 0.3);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     transition: background 0.3s;
+    flex: 1; /* займет все свободное место */
+    display: flex;
+    flex-direction: column;
+
 }
 
 .service-info::before {
@@ -432,6 +441,7 @@ body {
     border: none;
     cursor: pointer;
     transition: 0.25s;
+    margin-top: auto;
 }
 
 .service-card .btn:hover {
