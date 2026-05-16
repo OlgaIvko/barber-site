@@ -3,11 +3,13 @@ import { initYclientsBooking } from './modules/booking.js';
 import { loadMasterAndPortfolio } from './modules/masters.js';
 import { initScrollAnimations } from './modules/animations.js';
 import { loadServices } from './modules/services.js';
+import { initReviews } from './modules/reviews.js';   // ← изменено
 
 document.addEventListener('DOMContentLoaded', () => {
     initVideoBackground();
-    initYclientsBooking();    // вместо старой формы
+    initYclientsBooking();
     loadMasterAndPortfolio();
-    loadServices();            // новые карточки услуг
+    loadServices();
     initScrollAnimations();
+    initReviews();                                    // ← изменено
 });

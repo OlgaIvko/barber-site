@@ -804,3 +804,136 @@ body {
         text-shadow: none !important;
     }
 }
+
+/* ===== ФОРМА ОТЗЫВА ===== */
+.review-form-container {
+    background: rgba(255, 255, 250, 0.45);
+    backdrop-filter: blur(16px);
+    border-radius: 48px;
+    padding: 40px;
+    margin-bottom: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.review-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 14px 18px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #b8860b;
+}
+
+.rating-stars {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.star {
+    color: #555;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.star.active,
+.star:hover {
+    color: #ffd700;
+}
+
+/* Кнопка отправки — гарантированные стили */
+#submitReviewBtn {
+    background: #1e1e1e !important;
+    color: #faf9f7 !important;
+    border-radius: 60px !important;
+    padding: 12px 30px !important;
+    font-weight: 600 !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: 0.25s !important;
+    width: 100% !important;
+}
+
+#submitReviewBtn:hover {
+    background: #b8860b !important;
+    color: #111 !important;
+    transform: scale(1.02) !important;
+}
+
+.reviews-list {
+    margin-top: 40px;
+}
+
+.reviews-list h3 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#reviewsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.review-item {
+    background: rgba(255, 255, 250, 0.3);
+    backdrop-filter: blur(8px);
+    border-radius: 28px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #b8860b;
+}
+
+.review-stars {
+    color: #ffd700;
+    letter-spacing: 2px;
+}
+
+.review-text {
+    color: #1e1e1e;
+    line-height: 1.4;
+}
+
+.delete-review-btn {
+    background: rgba(0,0,0,0.5);
+    border: 1px solid #b8860b;
+    color: #b8860b;
+    padding: 4px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.7rem;
+    transition: 0.2s;
+}
+.delete-review-btn:hover {
+    background: #b8860b;
+    color: #111;
+}
