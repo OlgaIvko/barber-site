@@ -1,0 +1,9 @@
+# Разрешить всем поисковым роботам индексировать весь сайт
+User-agent: *
+Allow: /
+
+# Указать основное зеркало сайта (если нужно)
+Host: https://cap-barbershop.ru
+
+# Карта сайта (если будете добавлять позже)
+Sitemap: https://cap-barbershop.ru/sitemap.xml

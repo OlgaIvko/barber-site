@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Антон Барбер | Премиум стрижки</title>
-    <meta name="description" content="Барбер Антон. Мужская стрижка и барберские услуги в Москве. Запись онлайн.">
+
+    <!-- Основные SEO-теги (Липецк) -->
+    <title>Антон Барбер | Мужские стрижки в Липецке | Запись онлайн</title>
+    <meta name="description" content="Барбер Антон в Липецке, ул. Фрунзе 21. Мужские стрижки, борода, бритьё опасной бритвой, скидка 15% на первый визит. Запись онлайн. Удобно, быстро, стильно.">
+    <meta name="keywords" content="барбер липецк, мужская стрижка липецк, барбершоп липецк, стрижка бороды липецк, бритьё опасной бритвой липецк, антон барбер">
+    <meta name="author" content="Ольга Тищенко">
+    <meta name="copyright" content="Антон Барбер">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://cap-barbershop.ru">
+    <meta property="og:title" content="Антон Барбер | Мужские стрижки в Липецке">
+    <meta property="og:description" content="Барбер Антон в Липецке. Стильные стрижки, борода, бритьё. Запись онлайн. Скидка 15%.">
+    <meta property="og:image" content="https://cap-barbershop.ru/assets/images/og-image.jpg">
+    <meta property="og:url" content="https://cap-barbershop.ru">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Антон Барбер | Липецк">
+    <meta name="twitter:description" content="Мужские стрижки и барберские услуги в Липецке. Запишись онлайн!">
+    
+    <!-- Preload (раскомментировано, но путь должен существовать) -->
     <link rel="preload" as="image" href="assets/images/placeholder.jpg">
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- JSON‑LD для локального бизнеса (помогает ИИ и поисковикам) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Антон Барбер",
+      "image": "https://cap-barbershop.ru/assets/images/logo.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Фрунзе, 21",
+        "addressLocality": "Липецк",
+        "addressRegion": "Липецкая область",
+        "postalCode": "398024",
+        "addressCountry": "RU"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 52.6091,
+        "longitude": 39.5718
+      },
+      "url": "https://cap-barbershop.ru",
+      "telephone": "+79997504536",
+      "priceRange": "₽₽",
+      "openingHours": "Mo-Su 10:00-22:00",
+      "sameAs": [
+        "https://instagram.com/bar.baros48"
+      ]
+    }
+    </script>
 </head>
 <body>
 
@@ -28,7 +75,6 @@
     <!-- Hero секция с видеофоном -->
     <section class="hero" id="hero">
         <div class="video-container">
-            <img class="video-placeholder" src="assets/images/placeholder.jpg" alt="barber background preload">
             <video id="bgVideo" class="video-bg" autoplay loop muted playsinline poster="assets/images/placeholder.jpg">
                 <source src="assets/video/barber-bg.mp4" type="video/mp4">
                 Ваш браузер не поддерживает видео.
@@ -36,52 +82,48 @@
         </div>
         <div class="hero-content">
             <h1 class="hero-title">ANTON BARBER</h1>
-            <p class="hero-subtitle">Стиль. Качество. Индивидуальность.</p>
+            <p class="hero-subtitle">Стиль. Качество. Индивидуальность. Липецк.</p>
             <button class="btn btn-primary book-main-btn">Записаться онлайн</button>
         </div>
     </section>
-<!-- Обо мне + скидка -->
-<!-- Обо мне + скидка с вау-эффектом -->
-<section class="about section" id="about">
-    <div class="container">
-        <div class="about-vau">
-            <div class="about-glow"></div>
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="section-title">Антон Барбер</h2>
-                    <p class="about-lead">Барбер – это искусство. Моя работа — делать тебя увереннее.</p>
-                    <div class="about-details">
-                        <p>Каждый день я встречаю разных людей, с разными историями. Моя задача — не просто стрижка, а идеальный образ, который подчеркнёт твою индивидуальность.</p>
-                        <p>Я люблю свою работу за то, что она даёт мне возможность помогать людям становиться увереннее. Когда клиент выходит довольным — это лучшая награда.</p>
-                        <p>Если ты ищешь своего барбера — я буду рад помочь.</p>
+
+    <!-- Обо мне + скидка с вау-эффектом -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-vau">
+                <div class="about-glow"></div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">Антон Барбер</h2>
+                        <p class="about-lead">Барбер – это искусство. Моя работа — делать тебя увереннее.</p>
+                        <div class="about-details">
+                            <p>Каждый день я встречаю разных людей, с разными историями. Моя задача — не просто стрижка, а идеальный образ, который подчеркнёт твою индивидуальность.</p>
+                            <p>Я люблю свою работу за то, что она даёт мне возможность помогать людям становиться увереннее. Когда клиент выходит довольным — это лучшая награда.</p>
+                            <p>Если ты ищешь своего барбера — я буду рад помочь.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="about-offer-vau">
-                    <div class="offer-card">
-                        <div class="offer-stars">✦ ✦ ✦</div>
-                        <div class="offer-badge">ПЕРВЫЙ ВИЗИТ</div>
-                        <div class="offer-number">−15%</div>
-                        <div class="offer-text">на любую услугу</div>
-                        <div class="offer-expires">акция действует при первом посещении</div>
-                        <button class="btn btn-primary book-offer-btn">Записаться →</button>
+                    <div class="about-offer-vau">
+                        <div class="offer-card">
+                            <div class="offer-stars">✦ ✦ ✦</div>
+                            <div class="offer-badge">ПЕРВЫЙ ВИЗИТ</div>
+                            <div class="offer-number">−15%</div>
+                            <div class="offer-text">на любую услугу</div>
+                            <div class="offer-expires">акция действует при первом посещении</div>
+                            <button class="btn btn-primary book-offer-btn">Записаться →</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-    <!-- Мастер и портфолио (без текста Антона) -->
+    <!-- Мастер и портфолио -->
     <section class="masters section" id="masters">
         <div class="container">
             <h2 class="section-title">Мастер</h2>
-            
             <div id="mastersGrid"></div>
-            
         </div>
     </section>
-
-    
 
     <!-- Услуги и цены -->
     <section class="services section" id="services">
@@ -91,35 +133,37 @@
         </div>
     </section>
 
-  <!-- Контакты и карта -->
-<section class="contacts section" id="contacts">
-    <div class="container">
-        <h2 class="section-title">Контакты</h2>
-        <div class="contacts-grid">
-            <div class="contacts-info">
-                <p><strong>Адрес:</strong> г. Липецк, ул. Фрунзе, дом 21</p>
-                <p><strong>Телефон:</strong> <a href="tel:+89997504536">8 (999) 750-45-36</a></p>
-                <p><strong>Режим работы:</strong> Ежедневно 10:00 – 22:00</p>
-                <p><strong>Instagram:</strong> <a href="https://instagram.com/bar.baros48" target="_blank">@bar.baros48</a></p>
-            </div>
-            <div class="map">
-                <!-- Яндекс карта с адресом: Липецк, ул. Фрунзе, 21 -->
-                <iframe src="https://yandex.ru/map-widget/v1/?ll=39.5718,52.6091&z=17&pt=39.5718,52.6091&what=search?text=Липецк, ул. Фрунзе, 21" width="100%" height="300" frameborder="0" style="border-radius: 24px;"></iframe>
+    <!-- Контакты и карта -->
+    <section class="contacts section" id="contacts">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contacts-grid">
+                <div class="contacts-info">
+                    <p><strong>Адрес:</strong> г. Липецк, ул. Фрунзе, дом 21</p>
+                    <p><strong>Телефон:</strong> <a href="tel:+89997504536">8 (999) 750-45-36</a></p>
+                    <p><strong>Режим работы:</strong> Ежедневно 10:00 – 22:00</p>
+                    <p><strong>Instagram:</strong> <a href="https://instagram.com/bar.baros48" target="_blank">@bar.baros48</a></p>
+                </div>
+                <div class="map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?ll=39.5718,52.6091&z=17&pt=39.5718,52.6091&what=search?text=Липецк, ул. Фрунзе, 21" width="100%" height="300" frameborder="0" style="border-radius: 24px;"></iframe>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <footer class="footer">
-    <div class="container">
-        <p>© 2026 Антон Барбер. Все права защищены.</p>
-        <p style="margin-top: 10px;">
-            <a href="policy.html" style="color: #b8860b; text-decoration: none; margin-right: 20px;">Политика конфиденциальности</a>
-            <a href="https://instagram.com/bar.baros48" target="_blank" style="color: #b8860b; text-decoration: none; margin-right: 20px;">Instagram</a>
-            <span style="color: #aaa;">📍 г. Липецк, ул. Фрунзе, 21</span>
-        </p>
-    </div>
-</footer>
+        <div class="container">
+            <p>© 2026 Антон Барбер. Все права защищены.</p>
+            <p style="margin-top: 10px;">
+                <a href="policy.html" style="color: #b8860b; text-decoration: none; margin-right: 20px;">Политика конфиденциальности</a>
+                <a href="https://instagram.com/bar.baros48" target="_blank" style="color: #b8860b; text-decoration: none; margin-right: 20px;">Instagram</a>
+                <span style="color: #aaa;">📍 г. Липецк, ул. Фрунзе, 21</span>
+            </p>
+           <p style="margin-top: 20px; font-size: 0.8rem; color: #555;">
+    Разработка сайта — <a href="http://terracodelite.ru/" target="_blank" rel="noopener noreferrer" style="color: #b8860b; text-decoration: none;">Ольга Тищенко</a>
+</p>
+        </div>
+    </footer>
 
     <script type="module" src="js/main.js"></script>
 </body>

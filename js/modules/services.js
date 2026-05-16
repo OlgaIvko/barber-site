@@ -19,7 +19,7 @@ export function loadServices() {
 
     const html = services.map(service => `
         <div class="service-card">
-            <img src="${service.img}" alt="${service.name}" class="service-img" loading="lazy" onerror="this.src='assets/images/placeholder.jpg'">
+             <img src="${service.img}" alt="${service.name}" class="service-img" loading="lazy" onerror="this.src='assets/images/placeholder.jpeg'">
             <div class="service-info">
                 <h3>${service.name}</h3>
                 <div class="service-info__block">
