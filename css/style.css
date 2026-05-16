@@ -783,3 +783,24 @@ body {
     font-weight: 500;
     letter-spacing: 0.5px;
 }
+
+/* ФОРСИРОВАННОЕ ОТОБРАЖЕНИЕ СЕКЦИИ УСЛУГ НА МОБИЛЬНЫХ */
+@media (max-width: 768px) {
+    .services,
+    .services .container,
+    .services .section-title,
+    .services-grid {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        max-height: none !important;
+        overflow: visible !important;
+    }
+    .services .section-title {
+        color: #b8860b !important;
+        background: none !important;
+        -webkit-background-clip: unset !important;
+        background-clip: unset !important;
+        text-shadow: none !important;
+    }
+}
