@@ -9,14 +9,14 @@ export async function loadMasterAndPortfolio() {
         awards: 'Лучший барбер города 2025',
         photo: 'images/assets/masters/master.jpeg',
         works: [
-            { src: 'images/assets/portfolio/work1.png', alt: 'Классическая стрижка' },
-            { src: 'images/assets/portfolio/work2.png', alt: 'Модельная стрижка' },
+            { src: 'images/assets/portfolio/work1.jpeg', alt: 'Классическая стрижка' },
+            { src: 'images/assets/portfolio/work2.jpeg', alt: 'Модельная стрижка' },
             { src: 'images/assets/portfolio/work3.jpeg', alt: 'Стрижка бороды' },
-            { src: 'assets/portfolio/work4.jpg', alt: 'Бритьё опасной бритвой' },
-            { src: 'assets/portfolio/work5.jpeg', alt: 'Текстурная стрижка' },
-            { src: 'assets/portfolio/work6.jpg', alt: 'Андеркат' },
-            { src: 'assets/portfolio/work7.jpg', alt: 'Фейд' },
-            { src: 'assets/portfolio/work8.jpg', alt: 'Стрижка машинкой' }
+            { src: 'images/assets/portfolio/work4.jpeg', alt: 'Бритьё опасной бритвой' },
+            { src: 'images/assets/portfolio/work5.jpeg', alt: 'Текстурная стрижка' },
+            // { src: 'images/assets/portfolio/work6.jpeg', alt: 'Андеркат' },
+            // { src: 'images/assets/portfolio/work7.jpeg', alt: 'Фейд' },
+            // { src: 'images/assets/portfolio/work8.jpeg', alt: 'Стрижка машинкой' }
         ]
     };
 

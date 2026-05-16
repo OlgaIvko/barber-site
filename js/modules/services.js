@@ -3,18 +3,18 @@ export function loadServices() {
     if (!container) return;
 
     const services = [
-        { name: "Мужская стрижка", price: "2000₽", duration: "1 ч", img: "images/assets/portfolio/work1.png" },
+        { name: "Мужская стрижка", price: "2000₽", duration: "1 ч", img: "images/assets/services/work1.jpeg" },
         { name: "Стрижка 3 насадки", price: "1500₽", duration: "30 мин", img: "images/assets/services/clipper.jpeg" },
-        { name: "Детокс кожи головы", price: "500₽", duration: "15 мин", img: "images/assets/portfolio/work3.jpeg" },
-        { name: "Ваксинг (удаление волос воском)", price: "250₽", duration: "5 мин", img: "assets/services/waxing.jpg" },
-        { name: "Премиальный уход за кожей лица", price: "1000₽", duration: "30 мин", img: "assets/services/facecare.jpg" },
-        { name: "Стрижка и борода", price: "от 3000₽", duration: "1 ч 30 мин", img: "assets/services/hairbeard.jpg" },
-        { name: "Стрижка машинкой и борода", price: "от 2500₽", duration: "1 ч", img: "assets/services/machine.jpg" },
-        { name: "Борода", price: "От 1500₽", duration: "30 мин", img: "assets/services/beard.jpg" },
-        { name: "Премиальное бритьё опасной бритвой", price: "2000₽", duration: "1 ч", img: "assets/services/razor.jpg" },
-        { name: "Отец и сын", price: "3500₽", duration: "1 ч 30 мин", img: "assets/services/fatherson.jpg" },
+        { name: "Детокс кожи головы", price: "500₽", duration: "15 мин", img: "images/assets/services/work7.jpeg" },
+        { name: "Ваксинг (удаление волос воском)", price: "250₽", duration: "5 мин", img: "images/assets/services/waxing.jpeg" },
+        { name: "Премиальный уход за кожей лица", price: "1000₽", duration: "30 мин", img: "images/assets/services/facecare.jpeg" },
+        { name: "Стрижка и борода", price: "от 3000₽", duration: "1 ч 30 мин", img: "images/assets/services/hairbeard.jpeg" },
+        { name: "Стрижка машинкой и борода", price: "от 2500₽", duration: "1 ч", img: "images/assets/services/machine.jpeg" },
+        { name: "Борода", price: "От 1500₽", duration: "30 мин", img: "images/assets/services/beard.jpeg" },
+        { name: "Премиальное бритьё опасной бритвой", price: "2000₽", duration: "1 ч", img: "images/assets/services/razor.jpeg" },
+        { name: "Отец и сын", price: "3500₽", duration: "1 ч 30 мин", img: "images/assets/services/fatherson.jpeg" },
         { name: "Детская стрижка", price: "1800₽", duration: "1 ч", img: "images/assets/services/kid.jpeg" },
-        { name: "Укладка и окантовка", price: "500₽", duration: "15 мин", img: "images/assets/services/styling.jpeg" }
+        { name: "Укладка и окантовка", price: "500₽", duration: "15 мин", img: "images/assets/services/work3.jpeg" }
     ];
 
     const html = services.map(service => `
