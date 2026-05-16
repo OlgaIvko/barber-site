@@ -937,3 +937,13 @@ body {
     background: #b8860b;
     color: #111;
 }
+
+.booking-note {
+    display: inline-block;
+    background: rgba(184,134,11,0.12);
+    padding: 4px 16px;
+    border-radius: 40px;
+    font-size: 0.8rem;
+    color: #b8860b;
+    margin: 16px 0;
+}

@@ -9,21 +9,18 @@ export async function loadMasterAndPortfolio() {
         awards: 'Лучший барбер города 2025',
         photo: 'images/assets/masters/master.jpeg',
         works: [
-            { src: 'images/assets/portfolio/work1.jpeg', alt: 'Классическая стрижка' },
+           
             { src: 'images/assets/portfolio/work2.jpeg', alt: 'Модельная стрижка' },
             { src: 'images/assets/portfolio/work3.jpeg', alt: 'Стрижка бороды' },
             { src: 'images/assets/portfolio/work4.jpeg', alt: 'Бритьё опасной бритвой' },
             { src: 'images/assets/portfolio/work5.jpeg', alt: 'Текстурная стрижка' },
             { src: 'images/assets/portfolio/work6.jpeg', alt: 'Андеркат' },
-            { src: 'images/assets/portfolio/work7.jpeg', alt: 'Фейд' },
             { src: 'images/assets/portfolio/work8.jpeg', alt: 'Стрижка машинкой' },
             { src: 'images/assets/portfolio/work9.jpeg', alt: 'Стрижка' },
             { src: 'images/assets/portfolio/work10.jpeg', alt: 'Стрижка' },
-            { src: 'images/assets/portfolio/work11.jpeg', alt: 'Стрижка' },
-            { src: 'images/assets/portfolio/work12.jpeg', alt: 'Стрижка' },
             { src: 'images/assets/portfolio/work13.jpeg', alt: 'Стрижка' },
             { src: 'images/assets/portfolio/work14.jpeg', alt: 'Стрижка' },
-            { src: 'images/assets/portfolio/work15.jpeg', alt: 'Стрижка' }
+            
         ]
     };
 
